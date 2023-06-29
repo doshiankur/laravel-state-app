@@ -1,0 +1,81 @@
+@extends('layouts.admin.adminlayout')
+@section('content')
+<!-- Content Header (Page header) -->
+<section class="content-header">
+    <h1> Languages List </h1>
+    @if(Session::has('flash_message'))
+    <div class="alert alert-success">
+       {{Session::get('flash_message')}}
+    </div>
+@endif
+    <ol class="breadcrumb">
+        <li><a href="{{asset('webpanel/dashboard')}}"><i class="fa fa-dashboard"></i> Dashboard </a></li>
+        <li class="active">Languages List</li>
+    </ol>
+</section>
+<!-- Main content -->
+<section class="content">
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="box">
+                <div class="box-header">
+                    <div class="col-xs-11"> <h3 class="box-title">User List</h3> </div>
+                    <div class="float-right">
+                        <a href="{{ url('/webpanel/announcement/create') }}" class="btn btn-success btn-sm float-right" title="Add New Language">
+                            <i class="fa fa-plus" aria-hidden="true"></i> Add New
+                        </a>
+                    </div>
+
+                </div>
+                <!-- /.box-header -->
+                <div class="box-body">
+                    <table id="example" class="display" style="width:100%">
+                        <thead>
+                        <tr>
+                            <th>Language</th>
+                            <th>email</th>
+                            <th>password</th>
+                            <th>User Type</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                       @foreach($announcement as $item)
+                        <tr>
+                            <td> {{ $item->strLanguage }} </td>
+                            <td>{{ $item->str_content }}</td>
+                            <td>
+                                <a href="{{ url('/webpanel/announcement/' . $item->id . '/edit') }}" title="Edit Announcement"><button class="btn btn-info btn-sm"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>  </button></a>
+                                {!! Form::open([
+                                'method' => 'DELETE',
+                                'url' => ['/webpanel/announcement', $item->id],
+                                'style' => 'display:inline'
+                                ]) !!}
+
+                               {!! Form::button('<i class="fa fa-trash-o" aria-hidden="true"></i> ', array(
+                                'type' => 'submit',
+                                'title' => 'Delete Language',
+                                'class' => 'btn btn-danger btn-sm',
+                               
+                                )) !!}
+                                {!! Form::close() !!}
+                            </td>
+                        </tr>
+                        @endforeach
+                       </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /.row -->
+  </section>
+    <!-- /.content -->
+@endsection
+@push('scripts')
+<script type="text/javascript">
+    $(document).ready(function() {
+        $('#example').DataTable();
+    } );
+</script>
+@endpush
+

@@ -1,0 +1,84 @@
+@font-face {
+    font-family: 'assistantregular'; /*done*/
+    src: url('../fonts/assistant-regular-webfont.eot');
+    src: url('../fonts/assistant-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/assistant-regular-webfont.woff2') format('woff2'),
+         url('../fonts/assistant-regular-webfont.woff') format('woff'),
+         url('../fonts/assistant-regular-webfont.ttf') format('truetype'),
+         url('../fonts/assistant-regular-webfont.svg#assistantregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+	font-display: fallback;}
+
+
+@font-face {
+    font-family: 'assistantbold'; /*done*/
+    src: url('../fonts/assistant-bold-webfont.eot');
+    src: url('../fonts/assistant-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/assistant-bold-webfont.woff2') format('woff2'),
+         url('../fonts/assistant-bold-webfont.woff') format('woff'),
+         url('../fonts/assistant-bold-webfont.ttf') format('truetype'),
+         url('../fonts/assistant-bold-webfont.svg#assistantbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+	font-display: fallback;
+}
+
+
+@font-face {
+    font-family: 'assistantextrabold'; /*done*/
+    src: url('../fonts/assistant-extrabold-webfont.eot');
+    src: url('../fonts/assistant-extrabold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/assistant-extrabold-webfont.woff2') format('woff2'),
+         url('../fonts/assistant-extrabold-webfont.woff') format('woff'),
+         url('../fonts/assistant-extrabold-webfont.ttf') format('truetype'),
+         url('../fonts/assistant-extrabold-webfont.svg#assistantextrabold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+	font-display: fallback;
+
+}
+
+
+
+@font-face {
+    font-family: 'assistantlight'; /*done*/
+    src: url('../fonts/assistant-light-webfont.eot');
+    src: url('../fonts/assistant-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/assistant-light-webfont.woff2') format('woff2'),
+         url('../fonts/assistant-light-webfont.woff') format('woff'),
+         url('../fonts/assistant-light-webfont.ttf') format('truetype'),
+         url('../fonts/assistant-light-webfont.svg#assistantlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+	font-display: fallback;
+
+}
+
+@font-face {
+    font-family: 'assistantextralight'; /*done*/
+    src: url('../fonts/assistant-extralight-webfont.eot');
+    src: url('../fonts/assistant-extralight-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/assistant-extralight-webfont.woff2') format('woff2'),
+         url('../fonts/assistant-extralight-webfont.woff') format('woff'),
+         url('../fonts/assistant-extralight-webfont.ttf') format('truetype'),
+         url('../fonts/assistant-extralight-webfont.svg#assistantextralight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+	font-display: fallback;
+
+}
+
+
+
+@font-face {
+    font-family: 'assistantsemibold'; /*done*/
+    src: url('../fonts/assistant-semibold-webfont.eot');
+    src: url('../fonts/assistant-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/assistant-semibold-webfont.woff2') format('woff2'),
+         url('../fonts/assistant-semibold-webfont.woff') format('woff'),
+         url('../fonts/assistant-semibold-webfont.ttf') format('truetype'),
+         url('../fonts/assistant-semibold-webfont.svg#assistantsemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+	font-display: fallback;}

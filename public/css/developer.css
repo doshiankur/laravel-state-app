@@ -1,0 +1,160 @@
+.help-block {
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    color: red;
+}
+
+.capchadiv {
+    padding-left : 0px;
+}
+
+.refresh{
+    background: #164AA6;
+    margin-top: 0px;
+    margin-left: 5px;
+}
+
+.categories li label{
+    cursor: pointer;
+    color: #0b0b0b;
+    font-size: 15px;
+    padding: 5px;
+    background-color: #fff;
+    display: block;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.financeInfo h2 {
+    text-align: left;
+
+}
+
+.categories li label.active,.categories li label:hover{
+    color: white;
+    background: #164aa6;
+
+}
+.departmentdetails img.imgW100p{
+    max-width: 800px;
+}
+
+.introBar .pageName {
+    letter-spacing:0px !important;
+}
+
+.multiselect-selected-text{ width: 350px; display: inline-block; text-align: left;}
+.media-img{ padding-left:10px; padding-right:10px; margin-bottom: 15px !important; }
+.mg-rows{margin-left: -10px; margin-right: -10px;}
+.media-slide{ left:10px; right:10px; width:auto;}
+
+.media-popup{width: 100%}
+.multiselect-container {max-height: 250px; overflow-y:auto;}
+
+.text-core .text-wrap .text-tags .text-tag .text-button{
+    padding:5px 17px 0px 3px !important;
+    height: 26px !important;
+    font-size: 15px !important;
+    border: 1px solid #d1d1d1 !important;
+}
+
+.text-core .text-wrap .text-tags .text-tag .text-button a.text-remove{
+    right: 4px !important;
+    top: 7px !important;
+}
+.text-core textarea{ font-size: 16px !important; width: 640px !important; }
+
+.mediaVideo .img-responsive {max-height: 295px; height: 100%;}
+.media-popup .media-img img{ -webkit-filter: grayscale(0); -moz-filter: grayscale(0); filter: none; filter: grayscale(0);}
+
+@media (max-width : 767px) {
+    .mediaVideo{height:150px; max-width: 450px;}
+    .mediaVideo .img-responsive {max-height: 150px; height: 100%;}
+
+    .videoMedia li{
+        width:33.33%;}
+    .footer{margin-top: -67px; padding-top: 100px;}
+    .mediaVideo .displayTable .middleText div{ font-size: 40px; padding-bottom: 10px;}
+    .mediaVideo .displayTable .middleText p{
+        font-size:13px; line-height: normal;}
+}
+.colorblue{
+    color: blue;
+}
+.searchtagcolor {
+    font-size: 20px;
+    color:black;
+    padding-bottom: 0px;
+    margin-left: 16px;
+}
+.categories a.active{background-color: #c6f0fd;}
+.liteBlue{background-color: transparent;}
+.font-size16{font-size: 16px;}
+#mythoughtsContent .listing .blogIcon {
+    float:left;
+}
+#mythoughtsContent .listing a.moreBtn {
+    float:right;
+    margin-top: 10px;
+}
+
+#newsContent .listing .blogIcon {
+    float:left;
+}
+#newsContent .listing a.moreBtn {
+    float:right;
+    margin-top: 10px;
+}
+
+.biography p {min-height:auto;}
+.biography .minHi {min-height: 240px;}
+
+
+.mediapegination{ text-align: right; padding-top: 30px;}
+.mediapegination li{ list-style: none; display: inline-block; background-color: transparent;
+    color: #fff; vertical-align: text-top; float: left;}
+.mediapegination li a {background-color: transparent; color: #fff; border: 0; margin: 0; border-left: 1px solid #fff !important;
+    padding: 2px 12px; line-height: normal;}
+.mediapegination li.border5 a{border: 1px solid #fff !important; -moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px; margin-right: 4px;}
+.mediapegination .pagination>li>a{ line-height: normal; padding:2px 12px;}
+.mediapegination .pagination>li>span{ line-height: normal; padding:1px 12px;}
+.mediapegination  .pagination li a:hover{ -moz-border-radius:0; -webkit-border-radius:0; border-radius:0;}
+.mediapegination li.border5 a:hover{border: 1px solid #4dbdeb !important; -moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px; margin-right: 4px;}
+.mediapegination li.border5.active a{border: 1px solid #337ab7 !important; background-color: #337ab7;}
+
+@media (max-width : 768px) {
+    .pagination>li>a, .mediapegination .pagination>li>a{ padding: 2px 8px;}
+}
+#failer p{
+    padding-bottom: 0px !important;
+}
+#success p{
+    padding-bottom: 0px !important;
+}
+
+.postedThoug p:first-child strong{
+    font-size:20px !important;
+}
+
+.footer-media-title{
+    min-height: 42px;
+}
+#latestthoughtsDiv{background: #c6f0fd; padding: 15px 10px;}
+.mythoughtsListing ul.listing{ padding-top: 0;}
+
+#latestNewsDiv{background: #c6f0fd; padding: 15px 10px;}
+.NewsListing ul.listing{ padding-top: 0;}
+
+.searchtagcolor span{
+   font-weight:bolder;
+   border-bottom: 1px dashed black;
+}
+#searchContent .listing {
+    border-bottom: 1px solid #bfbfbf;
+}
+
+.postedThoug li{ padding-bottom: 50px;}
+.postedThoug p{ padding-bottom: 10px;}
+

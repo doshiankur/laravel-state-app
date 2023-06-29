@@ -1,0 +1,316 @@
+
+/*1280 Down*/
+@media (max-width : 1340px) {
+    .constituencyMap {right: 0px; width: 55%;}
+    .thoughts > .col-md-8 {padding-top: 35px;}
+
+    .shareBtn {width: 32px; left: -28px;}
+}
+
+
+
+
+@media (max-width : 1152px) {
+    .header .container {padding-left: 30px; padding-right: 20px;}
+    .smolNav {left: 15px;}
+
+    .homeBanner .owl-dots {width: 100%; left: 0; margin-left: 0;}
+    .owl-theme .owl-nav.disabled+.owl-dots {padding: 0 30px;}
+
+    .thoughts > .col-md-8 {padding-top: 25px;}
+
+    .financeDepartment .container {padding-left: 40px; padding-right: 40px;}
+
+    .constituency {padding: 180px 0 130px;}
+    .constituencyMap {right: 0px; width: 50%;}
+    .conTital {font-size: 120px; margin-left: 0;}
+
+    .mediaNews {padding-top: 130px;}
+    .footer {padding-top: 250px;}
+
+    /*about us*/
+    .introBar p {padding-right: 50px;max-width: inherit;}
+
+    /*My thought*/
+    .selectYear select {max-width: 215px;}
+
+    .shareBtn {position: static; float: right; background-position: right 1px center; border: 0; width: auto; height: 22px; padding: 0 35px 0 0;}
+    .shareBtn .socialIcon a {margin: 0;}
+    .postInfo .tagList {float: left;}
+}
+
+
+
+
+/*
+
+@media screen and (min-width: 992px) and (max-width: 1280px) {
+}
+
+@media screen and (min-width: 992px) and (max-width: 1024px) {
+}
+*/
+
+@media screen and (min-width: 1366px) and (max-width: 1380px) and (min-height: 1000px) and (max-height: 1024px) and (orientation: landscape) {
+    .homeBanner h1 {font-size:40px; padding: 25px 0; max-width: inherit;}
+    .homeBanner p {max-width: inherit;}
+    .scrollIcon {display: none;}
+
+    .minHeight {height: auto; border-bottom: 1px solid #2d61be; padding-bottom: 40px;}
+    .homeBanner .owl-item .item {height: auto;}
+    .homeBanner .middleText {position: static;}
+    .homeBanner .child div {width: 100%; text-align: center;}
+    .owl-theme .owl-nav.disabled+.owl-dots {position: static; text-align: center;}
+    .owl-theme .owl-nav.disabled+.owl-dots {margin: 10px 0;}
+}
+
+@media screen and (min-width: 1024px) and (max-height: 1366px) and (orientation: portrait) {
+    .homeBanner h1 {font-size:40px; padding: 25px 0; max-width: inherit;}
+    .homeBanner p {max-width: inherit;}
+    .scrollIcon {display: none;}
+
+    .minHeight {height: auto; border-bottom: 1px solid #2d61be; padding-bottom: 40px;}
+    .homeBanner .owl-item .item {height: auto;}
+    .homeBanner .middleText {position: static;}
+    .homeBanner .child div {width: 100%; text-align: center;}
+    .owl-theme .owl-nav.disabled+.owl-dots {position: static; text-align: center;}
+    .owl-theme .owl-nav.disabled+.owl-dots {margin: 10px 0;}
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1130px) and (min-height: 700px) and (max-height: 768px) and (orientation: landscape) {
+    .homeBanner h1 {font-size:40px; padding: 25px 0; max-width: inherit;}
+    .homeBanner p {max-width: inherit;}
+    .scrollIcon {display: none;}
+
+    .minHeight {height: auto; border-bottom: 1px solid #2d61be; padding-bottom: 40px;}
+    .homeBanner .owl-item .item {height: auto;}
+    .homeBanner .middleText {position: static;}
+    .homeBanner .child div {width: 100%; text-align: center;}
+    .owl-theme .owl-nav.disabled+.owl-dots {position: static; text-align: center;}
+    .owl-theme .owl-nav.disabled+.owl-dots {margin: 10px 0;}
+
+}
+
+@media (max-width : 1024px) {
+    .conTital {font-size: 110px; margin-top: -70px;}
+
+    /*about us*/
+    .articleBox {margin-left: 20px;}
+    .introBar .pageName {font-size: 90px;}
+    .introSubTitle {font-size: 16px; margin-top: -50px; padding-bottom: 15px;}
+    .listBox {padding-right: 0; font-size: 16px;}
+    .listBox {line-height: normal;}
+    .listBox li {padding-bottom: 30px;}
+    .listBox li .picView {margin-right: 20px;}
+
+
+}
+
+/*992 UP*/
+@media (min-width : 992px) {
+    .articleBox .col-md-4 .portrait li .picView {float: none; margin-right: 0;}
+    .shareBtn {overflow: hidden; height: 30px;}
+    .shareBtn:hover {overflow: visible; height:auto;}
+}
+
+@media (max-width : 991px) {
+    .homeBanner h1 {font-size:40px; padding: 25px 0; max-width: inherit;}
+    .homeBanner p {max-width: inherit;}
+    h2 {font-size:35px;}
+    h3 {padding-bottom: 10px;}
+    .header {height: 57px;}
+    .header .container {padding-left: 10px;}
+    .logo {margin-left: 10px;}
+    .minHeight {height: auto; border-bottom: 1px solid #2d61be; padding-bottom: 40px;}
+    .homeBanner .owl-item .item {height: auto;}
+    .homeBanner .middleText {position: static;}
+    .homeBanner .child div {width: 100%; text-align: center;}
+    .owl-theme .owl-nav.disabled+.owl-dots {position: static; text-align: center;}
+    .owl-theme .owl-nav.disabled+.owl-dots {margin: 10px 0;}
+    .scrollIcon {display: none;}
+    .searchBox {margin-top: 10px; position: absolute; right: 13px; top: 0;}
+
+    .breadcrumbs li {padding: 0 15px;}
+
+    .biography {padding: 60px 0;}
+    .biography .col-md-3 {margin-bottom: 30px;}
+    .biography .moreBtn {margin-top: -30px;}
+
+    .thoughts > .col-md-8 {padding-bottom: 25px;}
+
+    .parliament {padding: 80px 0 70px;}
+    .parliament .row {padding-top: 30px;}
+
+    .imdiaMap {display: none;}
+
+    .conTital {font-size: 10vw;}
+
+    .financeDepartment .col-md-6 {height: auto !important;}
+    .financeInfo {margin: 0 auto;}
+    .financeYears {max-width: 400px; font-size: 75px; margin: 0 auto;}
+    .nextArrow, .preArrow {left: 4px;}
+    .financeYears .nextArrow  {opacity: 1; top: 19px !important;}
+    .financeYears .preArrow {opacity: 1; bottom: 3px !important;}
+    .goBtn {margin: 15px 0 0 28px;}
+    /*new*/
+    .financeTitle {max-width: 400px; margin: 0 auto; font-size: 28px;}
+    .financeTitle .nextArrow {opacity: 1; top: -10px; }
+    .financeTitle .preArrow {opacity: 1; bottom: -10px;}
+
+    .constituencyMap {width: 40%;}
+    .conTital {margin-top: -50px;}
+    .constituency {padding: 130px 0 60px;}
+    .constituency h2 {padding-top: 65px;}
+    .btnList {padding-top: 60px;}
+
+    .mediaNews {padding-top:90px;}
+    .mediaNewsInfo {margin-bottom: 15px;}
+    .bigNews {padding-bottom: 30px;}
+
+    .mediaVideo {max-width:650px; height: 244px; margin-top: 70px;}
+    .mediaVideo .displayTable .middleText div {font-size: 55px;}
+    .mediaVideo .displayTable .middleText p {font-size: 18px; padding: 0 10%;}
+    .ytVideo {margin-bottom: 0;}
+    .ytVideo span {width: 40px; height: 30px; margin-left: -20px; margin-top: -15px;}
+    .fancybox-iframe {height: 350px !important;}
+    .fancybox-image, .fancybox-inner {height: auto!important;}
+
+    .footer {padding-top: 210px;}
+    .footer .subNews {width: 50%; clear: both; float: left !important; padding-top: 20px; border: 0;}
+    .footer .subNews .pull-right {float: none !important;}
+
+    /*about us*/
+    .introRight {width: 35px;}
+    .introBar {margin-top: 57px;}
+    .introBar p {padding-right: 40px;}
+    .bigPortraitImg {display: none;}
+    .introBar .pageName {margin-top: 0; line-height: 100px;}
+    .introSubTitle {margin-top: -40px;}
+    .articleBox .col-md-4 .portrait li .picView img {width: auto; max-width: 100%;}
+    .articleBox .col-md-4 .portrait {padding-top: 0;}
+    .rightBg {width: 35px;}
+
+    /*My thought*/
+    .liteBlue {padding: 25px 0 30px 0;}
+    .selectYear h3 {padding-bottom: 10px;}
+    .selectYear select {max-width: inherit;}
+    .listing {padding: 30px 0 20px;}
+    .postInfo .tagList {clear: both; padding-top: 20px;}
+    .postInfo .tagList li {padding: 0;}
+    .postInfo .shareBtn {margin-top: 13px;}
+
+    /*Parliament*/
+    .sideBar {padding-left: 15px;}
+
+
+    .map {padding: 30px 0; height: 300px;}
+
+}
+
+
+@media (max-width : 767px) {
+    .homeBanner h1 {font-size:32px; padding: 15px 0;}
+    h2 {font-size:28px; padding-bottom: 30px;}
+
+    .header {height: 51px;}
+    .header .container {padding:0;}
+    .smolNav {margin-top: 6px; margin-left: 10px;}
+    .logo {font-size: 20px; letter-spacing: 3px; margin: 16px 0 0 10px;}
+    .searchBox {margin-top: 6px; right: 6px;}
+
+    .menu {padding: 0 0 20px 0;}
+    .menu ul {padding: 15px;}
+    .menu li {margin-bottom: 10px;}
+    .menu li a {font-size: 13px;}
+    .socialIconMenu {padding-left: 15px;}
+
+    .homeBanner .child h1 {padding: 15px;}
+    .homeBanner .child p {font-size:16px; line-height: normal; padding: 0 15px;}
+    .homeBanner .child p br {display: none;}
+
+    .biography {padding: 30px 0;}
+    .biography .col-md-3 {float: left; margin-bottom: 30px;}
+    .biography p {min-height: inherit; padding-bottom: 15px;}
+    .biography .moreBtn {margin-top: 0;}
+
+    .thoughts > .col-md-8 {padding: 10px 0;}
+    .thoughts > .col-md-8 .heightThouBox { min-height: 100px;}
+    .thoughts > .col-md-8 .heightThouBox .middleText {height: 100px;}
+    .thoughts .col-md-4 {min-height: inherit;}
+
+    .parliament {padding: 50px 0 30px;}
+    .parliament .col-sm-3 {padding-bottom: 15px;}
+    .parliament a span {font-size: 13px; min-height: 40px;}
+    .parliament a .parIcon {width: 120px; height: 120px; margin-bottom: 5px;}
+    .parliament a .parIcon img {width: 100%;}
+
+    .financeDepartment h2 {padding-bottom: 20px;}
+    .financeYears {font-size: 38px;}
+    .financeInfo {padding-bottom: 0px;}
+    .nextArrow, .preArrow {left: -3px;}
+    .financeYears .nextArrow  {top: 0px !important;}
+    .financeYears .preArrow {bottom: -7px !important;}
+    .goBtn {width: 40px; margin: 5px 0 0 20px;}
+    .goBtn img {width: 100%;}
+
+    /*new*/
+    .financeTitle {font-size: 19px;}
+    .fTitle {line-height: 34px;}
+    .financeTitle .goBtn {margin-left: 8px;}
+
+    .conTital {font-size: 21px; letter-spacing: 9px; margin: 32px 0 0;}
+    .constituency {padding: 0;}
+    .constituency .container {padding-left: 15px;}
+    .constituency h2 {padding-top: 25px;}
+    .constituencyMap {display: none;}
+    .btnList {padding-top: 5px;}
+    .btnList li {padding-left: 8px;}
+    .btnList li a {font-size: 13px;}
+
+    .socialIconMedia {padding-top: 15px;}
+
+    .mediaVideo {max-width: 300px; height: 254px; margin-top: 30px;}
+    .videoMedia li {width: 50%;}
+    .mediaNews {padding-top: 50px;}
+    .mediaVideo .displayTable .middleText div {font-size: 45px;}
+    .fancybox-image, .fancybox-iframe, .fancybox-inner {height: auto !important;}
+
+    .footer {padding-bottom: 10px;}
+    .footer .subNews {width: 100%;}
+    .socialIcon {text-align: center;}
+
+    /*about us*/
+    .breadcrumbs {display: none;}
+    .introRight, .rightBg {display: none;}
+    .introBar .pageName {font-size: 30px; line-height: normal; letter-spacing: 5px;}
+    .introSubTitle {position: static; margin-top: 0; padding-bottom: 5px;}
+    .articleBox {margin:0 10px;}
+    .introBar p {padding-right: 0; font-size: 16px;}
+    .listBox {padding-top: 20px;}
+    .listBox li .picView {margin-right: 0; margin-bottom: 15px;}
+    .listBox li .picView img {width: 100%;}
+
+    /*My thought*/
+    .blogIcon li {padding-left: 15px;}
+    .blogIcon li img {margin-right: 3px;}
+    .shareBtn {position: relative; top: 0; left: 0;}
+    .shareBtn .socialIcon {position: absolute; top: 32px; left: 10px; padding: 5px; background-color: #fff;}
+
+    .mobRight {float: none;}
+    .mobLeft {float: none;}
+
+    /*Parliament*/
+    .listing .pic {margin: 0 0px 10px 0; float: none;}
+
+    .sideBar {margin: 20px 0; padding-left: 0; border: 0; min-height: inherit;}
+
+    .media-slide, .media-slide h3, .media-slide p{ font-size: 14px; line-height: normal;}
+    .media-slide h3{ padding-bottom: 0;}
+    .media-img, .media-txt{ width: 100%; display: block;}
+    .media-txt{ padding: 15px 0 0 0;}
+
+
+    .btnCss {width: 100%;}
+    .map {padding: 10px 0 30px; height:250px;}
+
+}

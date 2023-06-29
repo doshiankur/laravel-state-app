@@ -1,0 +1,43 @@
+.mg-rows {
+    position:relative;
+}
+.mg-trigger{
+    cursor: pointer;
+}
+.mg-space {
+    display:none;
+    position:relative;
+    width:100%;
+    float:left;
+}
+.mg-target {
+    display:none;
+    background:transparent;
+    color:#333;
+}
+.mg-target-open {
+    position:absolute;
+    top:0;left:0;right:0;
+}
+.mg-indicator {
+    border-bottom: 25px solid #fff;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    height: 0;
+    position: absolute;
+    top: 0;
+    width: 0;
+}
+.mg-close {
+    display: none;
+    background: url(../images/icons/close.png) no-repeat 0 0;
+    cursor: pointer;
+    height: 16px; width: 16px;
+    position: absolute;
+    right: 30px;
+    top: 60px;
+    z-index: 2;
+}
+.mg-close:hover {
+   background-position: 0 bottom;
+}
